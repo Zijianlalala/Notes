@@ -1,26 +1,26 @@
-#Andorid学习笔记一
+# Andorid学习笔记一
 -
-###Android四大组件
+### Android四大组件
 1. Activity
 2. Service
 3. Content Provider
 4. Broadcast Recevier
 
 -
-###四大组件之Activity
-####定义
+### 四大组件之Activity
+#### 定义
 是用户可以执行的单一任务
-####作用
+#### 作用
 负责创建新的窗口供应绘制和从系统中接受事件
 
-####实现
+#### 实现
 读取res/layout中的xml布局文件确定创建哪些视图
 
-####视图类型
+#### 视图类型
 1. UI组件 例如：TextView,EditText,Button等
 2. 容器视图 例如：线性布局，相对布局等
 
-####XML属性
+#### XML属性
 1. Text 
 
 ```
@@ -37,7 +37,7 @@ android:layout_height="300dp"
 3. Padding和Margin
 区别是padding是确定视图里面的边界，而layout_margin确定的是视图外的边界
 
-####XML与Java Activitu关联
+#### XML与Java Activitu关联
 ```
 public class	MainActivty extends AppCompatActivty{
 	@Override
@@ -50,10 +50,10 @@ public class	MainActivty extends AppCompatActivty{
 }
 ```
 
-####布局
+#### 布局
 1. 三大常用布局：帧布局、线性布局、约束布局
 
-####foreach
+#### foreach
 基本语法
 
 ```
@@ -61,7 +61,7 @@ for(Type w:ObjectName){
 	w.method();
 }
 ```
-####Android Monitor
+#### Android Monitor
 常见的信息（严重程度由下至上增加）
 
 - ERROR
